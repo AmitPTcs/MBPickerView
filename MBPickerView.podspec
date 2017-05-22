@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Swifty-iOS" => "manishej004@gmail.com" }
   s.ios.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/swifty-iOS/MBPickerView.git", :tag =>s.version }
+  s.source       = { :git => "https://github.com/swifty-iOS/MBPickerView.git", :tag =>s.version.to_s }
   s.source_files  = "Source/*.swift"
 end
